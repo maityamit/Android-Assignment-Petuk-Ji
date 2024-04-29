@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "694178596764",
+    "project_id": "android-assignment-petuk-ji",
+    "storage_bucket": "android-assignment-petuk-ji.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694178596764:android:19234837dde73de42b2a59",
+        "android_client_info": {
+          "package_name": "androidassignmentforpetukjibyamitmaity.example.androidassignmentpetukji"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoKKP5lEhyqU31f9ywGvxTh9yo8shn_rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
