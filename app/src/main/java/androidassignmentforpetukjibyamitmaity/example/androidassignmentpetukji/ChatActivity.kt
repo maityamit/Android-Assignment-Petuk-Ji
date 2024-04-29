@@ -114,7 +114,10 @@ class ChatActivity : AppCompatActivity() {
                 chatList = currList
                 progressDialog.dismiss()
 
-                recyclerView.adapter = ChatAdapter(this@ChatActivity,chatList)
+                val chatAdapter:ChatAdapter = ChatAdapter(this@ChatActivity,chatList)
+
+                recyclerView.adapter = chatAdapter
+                recyclerView.scrollToPosition(chatAdapter.getItemCount() - 1)
 
             }
             override fun onCancelled(error: DatabaseError) {
